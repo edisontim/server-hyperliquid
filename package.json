@@ -1,5 +1,5 @@
 {
-  "name": "@mektigboy/server-hyperliquid",
+  "name": "mcp-hyperliquid",
   "version": "0.0.2",
   "publishConfig": {
     "access": "public"
