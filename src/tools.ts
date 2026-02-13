@@ -16,7 +16,7 @@ export const CANDLE_SNAPSHOT_TOOL: Tool = {
   inputSchema: {
     type: "object",
     properties: {
-      coin: {
+      symbol: {
         type: "string",
         description: "The symbol of the token to get candlestick data for",
       },
@@ -33,7 +33,7 @@ export const CANDLE_SNAPSHOT_TOOL: Tool = {
         description: "End time in milliseconds since epoch (optional)",
       },
     },
-    required: ["coin", "interval", "startTime"],
+    required: ["symbol", "interval", "startTime"],
   },
 };
 
